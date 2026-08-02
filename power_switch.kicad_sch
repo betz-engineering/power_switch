@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Electronic power switch")
-		(date "2026-07-26")
+		(date "2026-08-02")
 		(rev "-")
 	)
 	(lib_symbols
@@ -3372,7 +3372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "012d856b-0ea5-4543-a628-93fdd2914fca")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 148.59 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3431,7 +3431,7 @@
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3448,7 +3448,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0163d91c-41c9-430c-ada1-102e218f1dff")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 129.032 104.902 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3510,7 +3510,7 @@
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3527,7 +3527,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "043e0dab-1eb5-464c-9bd5-b674115a87f2")
-		(property "Reference" "R10"
+		(property "Reference" "R6"
 			(at 57.404 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3581,6 +3581,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 54.61 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "05be0f87-8f5c-48ee-8ea3-4efb5b1808e1")
 		)
@@ -3590,7 +3601,7 @@
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
-					(reference "R10")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3660,6 +3671,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 121.92 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3c2fa494-27c4-494e-8369-b27edb5a69a4")
 		)
@@ -3686,7 +3708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06bf0776-d045-4370-9dee-dafbdedf7a57")
-		(property "Reference" "J6"
+		(property "Reference" "J1"
 			(at 45.72 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3739,6 +3761,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "terminal_block/Phoenix"
+			(at 45.72 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "61fb5cd3-718e-4725-ba13-41bdbe2e0b91")
 		)
@@ -3754,7 +3787,7 @@
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
-					(reference "J6")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3927,7 +3960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b393b4d-b83e-433a-9e3f-7386f8be8df9")
-		(property "Reference" "R8"
+		(property "Reference" "R2"
 			(at 57.404 90.424 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3981,6 +4014,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 54.61 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "636ed2c1-5503-4a1c-847b-9f50dea6e90f")
 		)
@@ -3990,7 +4034,7 @@
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
-					(reference "R8")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4161,7 +4205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "397ea2fc-9fd2-45db-8957-d6f8e8669eee")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 152.4 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4216,6 +4260,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 148.59 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9b267e5c-cc7e-413b-bf3b-5a0c863ee649")
 		)
@@ -4225,7 +4280,7 @@
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4287,6 +4342,17 @@
 			)
 		)
 		(property "Description" "Dual D  FlipFlop, Set & reset"
+			(at 265.43 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 265.43 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4404,6 +4470,17 @@
 			)
 		)
 		(property "Description" "Dual D  FlipFlop, Set & reset"
+			(at 236.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 236.22 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4793,7 +4870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c3ff401-65d9-4a36-aa4a-be93c2465073")
-		(property "Reference" "R2"
+		(property "Reference" "R11"
 			(at 128.778 115.824 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4846,6 +4923,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 132.08 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6739e57b-a288-43af-b0ae-dc9a7d2800fa")
 		)
@@ -4855,7 +4943,7 @@
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
-					(reference "R2")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4929,6 +5017,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 204.47 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 204.47 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5043,7 +5142,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75610604-561f-445e-85d2-90fcb7390257")
-		(property "Reference" "R12"
+		(property "Reference" "R7"
 			(at 159.766 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5096,6 +5195,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 157.48 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3c6547ff-078b-41b4-a62f-66ede92a795e")
 		)
@@ -5105,7 +5215,7 @@
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
-					(reference "R12")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5201,7 +5311,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c62d6b0-5dcd-45a4-bad8-b8857fec88f4")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 112.776 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5254,6 +5364,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 110.49 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a0b72ac7-11a0-40c0-9fbc-24eee09eff62")
 		)
@@ -5263,7 +5384,7 @@
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5280,7 +5401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "842f7813-6c08-48c6-a6b2-bf89b9567e08")
-		(property "Reference" "R9"
+		(property "Reference" "R12"
 			(at 208.788 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5333,6 +5454,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 204.47 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "732fb317-8f99-46a7-b63b-fd452f8ddfa8")
 		)
@@ -5342,7 +5474,7 @@
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
-					(reference "R9")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5359,7 +5491,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "861312a3-ee32-4741-a260-f2f73f35978b")
-		(property "Reference" "C5"
+		(property "Reference" "C2"
 			(at 69.85 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5414,6 +5546,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 66.04 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9f6f9860-08f2-4620-849a-1bd394c99279")
 		)
@@ -5423,7 +5566,7 @@
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
-					(reference "C5")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5440,7 +5583,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "881d37c8-2a04-40d8-89d8-6cfe48bbd805")
-		(property "Reference" "R1"
+		(property "Reference" "R10"
 			(at 140.97 101.346 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5493,6 +5636,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 140.97 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ba044b91-4f9e-4213-a324-3f516640d043")
 		)
@@ -5502,7 +5656,7 @@
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
-					(reference "R1")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5806,6 +5960,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 87.63 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a4f00df4-a23e-40cb-8eab-de06029ae1b6")
 		)
@@ -5832,7 +5997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa117113-d2f3-418e-883f-16769b3c4e7e")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 129.286 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5885,6 +6050,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 127 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "de1b5c7c-2c76-462e-b621-2283d2ce7aff")
 		)
@@ -5894,7 +6070,7 @@
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -5908,7 +6084,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad2a73fe-c487-47ff-b727-8779f45990ec")
@@ -5967,6 +6143,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 182.88 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
@@ -5987,7 +6174,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae25efcf-79d0-41a5-a5ca-e80e0cf3942d")
-		(property "Reference" "R5"
+		(property "Reference" "R1"
 			(at 69.85 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6040,6 +6227,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 66.04 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b5576736-6a9c-46e1-9354-4e01dc453971")
 		)
@@ -6049,7 +6247,7 @@
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
-					(reference "R5")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6196,6 +6394,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 80.01 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8dc125ee-676e-42d1-9df0-0fa0a6275643")
 		)
@@ -6300,7 +6509,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc4cd436-0654-475f-ac0e-5c26710f2e32")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 100.33 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6353,6 +6562,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 95.25 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "91a4f10e-8ec8-4a1e-b8e9-20d3d5d1dd76")
 		)
@@ -6362,7 +6582,7 @@
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6379,7 +6599,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d492b485-b863-42bf-af5e-a0daff3aafb2")
-		(property "Reference" "R11"
+		(property "Reference" "R5"
 			(at 57.404 95.504 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6433,6 +6653,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 54.61 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b9fbe146-8096-4dda-a11c-c73de4b4000a")
 		)
@@ -6442,7 +6673,7 @@
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
-					(reference "R11")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6504,6 +6735,17 @@
 			)
 		)
 		(property "Description" "Dual D  FlipFlop, Set & reset"
+			(at 127 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
 			(at 127 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -7051,7 +7293,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1297009-c5dd-472b-b88d-121b5e44d004")
@@ -7110,6 +7352,17 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
+			(at 191.77 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
@@ -7131,7 +7384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9237195-ec43-4bc5-81fc-99396f9a3aa8")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 40.64 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7190,7 +7443,7 @@
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7594,7 +7847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffd5ee8c-87f9-4c9d-8132-19084b6e0222")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 78.486 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7658,7 +7911,7 @@
 		(instances
 			(project "power_switch"
 				(path "/29cd683b-36c9-4724-b810-fcc747395046"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
