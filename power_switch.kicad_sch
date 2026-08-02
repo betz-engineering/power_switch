@@ -2704,7 +2704,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 58.42) (xy 110.49 52.07)
+			(xy 127 58.42) (xy 127 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2744,7 +2744,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 58.42) (xy 127 52.07)
+			(xy 110.49 58.42) (xy 110.49 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3281,7 +3281,7 @@
 		(uuid "19fa8815-4f86-4860-b378-c8dbd1c439db")
 	)
 	(label "pwr_on"
-		(at 110.49 58.42 90)
+		(at 127 58.42 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3341,7 +3341,7 @@
 		(uuid "cf5108cc-4e2e-4a42-bf1b-e4f44c498e8d")
 	)
 	(label "pwr_on"
-		(at 127 58.42 90)
+		(at 110.49 58.42 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4972,7 +4972,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "KT-0805G"
 			(at 208.28 90.4874 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4983,7 +4983,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 204.47 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5302,7 +5302,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 110.49 48.26 0)
+		(at 127 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5312,7 +5312,7 @@
 		(dnp no)
 		(uuid "7c62d6b0-5dcd-45a4-bad8-b8857fec88f4")
 		(property "Reference" "R8"
-			(at 112.776 48.26 90)
+			(at 129.286 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5322,7 +5322,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 110.49 48.26 90)
+			(at 127 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5332,7 +5332,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 108.712 48.26 90)
+			(at 125.222 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5343,7 +5343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 48.26 0)
+			(at 127 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5354,7 +5354,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 110.49 48.26 0)
+			(at 127 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5365,7 +5365,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 110.49 48.26 0)
+			(at 127 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5988,7 +5988,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 127 48.26 0)
+		(at 110.49 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5998,7 +5998,7 @@
 		(dnp no)
 		(uuid "aa117113-d2f3-418e-883f-16769b3c4e7e")
 		(property "Reference" "R9"
-			(at 129.286 48.26 90)
+			(at 112.776 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6008,7 +6008,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 127 48.26 90)
+			(at 110.49 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6018,7 +6018,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 125.222 48.26 90)
+			(at 108.712 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6029,7 +6029,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 48.26 0)
+			(at 110.49 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6040,7 +6040,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 127 48.26 0)
+			(at 110.49 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6051,7 +6051,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 127 48.26 0)
+			(at 110.49 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
