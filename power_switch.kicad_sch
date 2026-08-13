@@ -2733,7 +2733,7 @@
 		)
 		(uuid "ef6f963d-5c50-44fd-a2d4-6aa12f0314de")
 	)
-	(text "Initial power on reset and UVLO"
+	(text "Initial power-on reset and 6 V UVLO"
 		(exclude_from_sim no)
 		(at 93.472 128.778 0)
 		(effects
@@ -4649,7 +4649,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZT52B5V1"
+		(property "Value" "BZT52B3V3"
 			(at 68.58 31.242 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5306,7 +5306,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "47k"
 			(at 120.65 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5565,7 +5565,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "47k"
 			(at 127 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5746,7 +5746,7 @@
 				)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "470k"
 			(at 109.982 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6506,7 +6506,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "47k"
 			(at 110.49 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6683,7 +6683,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4k7"
 			(at 70.104 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
