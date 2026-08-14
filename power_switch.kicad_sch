@@ -2700,7 +2700,7 @@
 		)
 		(uuid "9d7b8643-d604-4e7a-9ccb-5a0c147ce2ff")
 	)
-	(text "V_IN: 10 V .. 20 V\n\nChange D1 to adapt\nvoltage range"
+	(text "V_IN: 9 V .. 20 V\n\nChange D1 to adapt\nvoltage range"
 		(exclude_from_sim no)
 		(at 35.052 35.052 0)
 		(effects
