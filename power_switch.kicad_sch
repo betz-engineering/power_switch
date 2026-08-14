@@ -7,7 +7,7 @@
 	(title_block
 		(title "Electronic power switch")
 		(date "2026-08-02")
-		(rev "-")
+		(rev "1")
 	)
 	(lib_symbols
 		(symbol "4xxx:4013"
@@ -2645,9 +2645,9 @@
 		)
 		(uuid "41086be5-1a63-49fb-933e-e0b0833091a0")
 	)
-	(text "If pwr_on goes < 6 V, for example bc. the\noutput is shorted, the MOSFETs Q1 and Q2 will\nde-saturate and get hot. But Q3 also stops\nconducting and RST is pulled high by R14, \nswitching the power OFF\n\nWhen power is OFF, C5 will discharge through\nR14, releasing the RST pin, which will allow\nthe button to switch the power ON again.\nThere is 0 uA standby current in OFF state.\n\nWhen the power is switched ON, pwr_on rises\nvery quickly, biasing Q3 before C5 can charge\nabove the RST threshold\n\nDuring initial power-on, if the FF is in ON state,\npwr_on will rise slowly (due to R1 and C2), so C5\nwill be charged above the RST threshold before\nQ3 starts conducting, which will switch to OFF state."
+	(text "If pwr_on sags below 6 V, for example due to\nan output short, the MOSFETs Q1 and Q2 will\nde-saturate and get hot. But Q3 also stops\nconducting and RST is pulled high by R14, \nswitching the power OFF\n\nWhen power is OFF, C5 will discharge through\nR14, releasing the RST pin, which will allow\nthe button to switch the power ON again.\nThere is 0 uA standby current in OFF state.\n\nWhen the power is switched ON, pwr_on rises\nwithin < 1 us, biasing Q3 before C5 can charge\nabove the RST threshold\n\nDuring initial power-on, if the FF is in ON state,\npwr_on will rise slowly (due to R1 and C2), so C5\nwill be charged above the RST threshold before\nQ3 starts conducting, which will switch to OFF state."
 		(exclude_from_sim no)
-		(at 93.98 151.384 0)
+		(at 95.25 150.876 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2666,6 +2666,17 @@
 			(justify left)
 		)
 		(uuid "68a868d4-d5a4-499a-a4eb-9a0e75c521e5")
+	)
+	(text "Rev: 1 Added UVLO circuit to protect against de-saturating the mosfets"
+		(exclude_from_sim no)
+		(at 178.054 168.656 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c5b6cca-d78a-4835-8c9b-7092d3e5f655")
 	)
 	(text "Connector options\n\nMOLEX 389690002 (50 A)\nKF78C-13.0-4P (2x 40 A)\nXFCN T44007 (60 A)"
 		(exclude_from_sim no)
@@ -2735,7 +2746,7 @@
 	)
 	(text "Initial power-on reset and 6 V UVLO"
 		(exclude_from_sim no)
-		(at 93.472 128.778 0)
+		(at 95.25 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6577,7 +6588,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 182.88 172.72 0)
+		(at 269.24 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6588,7 +6599,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad2a73fe-c487-47ff-b727-8779f45990ec")
 		(property "Reference" "H1"
-			(at 185.42 171.4499 0)
+			(at 271.78 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6599,7 +6610,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 185.42 173.9899 0)
+			(at 271.78 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6610,7 +6621,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 182.88 172.72 0)
+			(at 269.24 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6621,7 +6632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 172.72 0)
+			(at 269.24 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6632,7 +6643,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 182.88 172.72 0)
+			(at 269.24 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6643,7 +6654,7 @@
 			)
 		)
 		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 182.88 172.72 0)
+			(at 269.24 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7956,7 +7967,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 191.77 172.72 0)
+		(at 278.13 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7967,7 +7978,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1297009-c5dd-472b-b88d-121b5e44d004")
 		(property "Reference" "H2"
-			(at 194.31 171.4499 0)
+			(at 280.67 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7978,7 +7989,7 @@
 			)
 		)
 		(property "Value" "M3"
-			(at 194.31 173.9899 0)
+			(at 280.67 185.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7989,7 +8000,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 191.77 172.72 0)
+			(at 278.13 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8000,7 +8011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 172.72 0)
+			(at 278.13 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8011,7 +8022,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 191.77 172.72 0)
+			(at 278.13 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8022,7 +8033,7 @@
 			)
 		)
 		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 191.77 172.72 0)
+			(at 278.13 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
