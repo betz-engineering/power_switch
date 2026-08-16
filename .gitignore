@@ -20,3 +20,5 @@ fp-info-cache
 .ipynb_checkpoints
 __pycache__/
 grb/
+production/
+fabrication-toolkit-options.json
